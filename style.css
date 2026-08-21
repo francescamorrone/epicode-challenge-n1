@@ -11,6 +11,7 @@ body {
     color: #565656;
     margin: 0;
     padding: 0;
+    cursor: crosshair;
 }
 
 #header-left {
@@ -163,7 +164,7 @@ table {
     text-align: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 60px;
 }
@@ -215,4 +216,40 @@ a:visited {
 .bio-section {
     margin-bottom: 200px;
     margin-top: 100px;
+}
+
+#color-palette:hover {
+    animation: shake ease-in-out 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#butterfly:hover {
+    animation: shake ease-in-out 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#vintage-computer:hover {
+    animation: shake ease-in-out 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0) translateY(0); }
+    25% { transform: translateX(-3px) translateY(-3px); }
+    50% { transform: translateX(3px) translateY(1px); }
+    75% { transform: translateX(-3px) translateY(3px); }
+}
+
+#collage {
+    width: 500px;
+
+}
+
+#collage:hover {
+    animation: shake ease-in-out 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.contacts {
+    text-align: left;
 }
