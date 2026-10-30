@@ -253,13 +253,3 @@ a:visited {
 .contacts {
     text-align: left;
 }
-
-::selection {
-    background-color: #141414;
-    color: #f7f7f7;
-}
-
-::selection {
-    background-color: #141414;
-    color: #f7f7f7;
-}
